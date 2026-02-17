@@ -1,0 +1,7 @@
+127.0.0.1 - - [22/Jan/2026:12:36:09 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [22/Jan/2026:12:36:10 +0530] "GET /bigbasket-ecommerce-platform/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [22/Jan/2026:12:36:10 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [22/Jan/2026:12:36:43 +0530] "GET /bigbasket-ecommerce-platform/login HTTP/1.1" 201 18
+0:0:0:0:0:0:0:1 - - [22/Jan/2026:12:37:38 +0530] "GET /bigbasket-ecommerce-platform/login HTTP/1.1" 500 3377
+0:0:0:0:0:0:0:1 - - [22/Jan/2026:12:38:29 +0530] "GET /bigbasket-ecommerce-platform/login HTTP/1.1" 201 18
+0:0:0:0:0:0:0:1 - - [22/Jan/2026:12:39:31 +0530] "GET /bigbasket-ecommerce-platform/login HTTP/1.1" 201 18

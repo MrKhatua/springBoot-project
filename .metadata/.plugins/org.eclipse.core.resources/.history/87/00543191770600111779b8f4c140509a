@@ -1,0 +1,29 @@
+package com.kodewala.service.imple;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.kodewala.dto.CollageRequest;
+import com.kodewala.dto.StudentRequest;
+import com.kodewala.entity.CollageEntity;
+import com.kodewala.repository.CollageRepository;
+import com.kodewala.service.ICollageService;
+
+public class CollageService implements ICollageService{
+	@Autowired
+	CollageRepository collageRepository;
+	
+	@Override
+	public String addCollage(CollageRequest collageRequest) {
+		CollageEntity collageEntity = new CollageEntity();
+		
+		collageEntity.setCollageName(collageRequest.getCollageName());
+		collageEntity.setCollageLocation(collageRequest.getCollageLocation());
+		
+		List<StudentRequest> studentRequests = collageRequest.getStudents();
+		
+		return null;
+	}
+
+}

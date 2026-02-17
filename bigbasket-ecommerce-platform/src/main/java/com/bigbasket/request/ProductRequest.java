@@ -1,0 +1,35 @@
+package com.bigbasket.request;
+
+public class ProductRequest {
+	
+	private Integer pid;
+	private String pname;
+	private double pprice;
+	private String description;
+	public Integer getPid() {
+		return pid;
+	}
+	public void setPid(Integer pid) {
+		this.pid = pid;
+	}
+	public String getPname() {
+		return pname;
+	}
+	public void setPname(String pname) {
+		this.pname = pname;
+	}
+	public double getPprice() {
+		return pprice;
+	}
+	public void setPprice(double pprice) {
+		this.pprice = pprice;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	
+	
+}

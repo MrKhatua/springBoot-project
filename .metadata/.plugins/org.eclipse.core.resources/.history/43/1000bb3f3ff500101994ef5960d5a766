@@ -1,0 +1,20 @@
+package com.myntra.profile.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class MyntraController {
+	@RequestMapping("createMyntraAccount")
+	public String viewControllerMethod() {
+		System.out.println("MyntraController.viewControllerMethod()---start");
+		return "insertProfileDetails";
+	}
+	@PostMapping("saveProfileDetails")
+	public String saveProfile() {
+		System.out.println("MyntraController.saveProfileDetails()---end");
+		return "profileSaveSuccessfully";
+	}
+}

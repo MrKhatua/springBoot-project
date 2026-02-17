@@ -1,0 +1,11 @@
+127.0.0.1 - - [17/Jan/2026:23:50:06 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [17/Jan/2026:23:50:07 +0530] "GET /amazon-user-profile/ HTTP/1.1" 200 111
+0:0:0:0:0:0:0:1 - - [17/Jan/2026:23:50:07 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [17/Jan/2026:23:50:14 +0530] "GET /amazon-user-profile/createprofile HTTP/1.1" 200 378
+0:0:0:0:0:0:0:1 - - [17/Jan/2026:23:50:45 +0530] "POST /amazon-user-profile/profileCreatePage HTTP/1.1" 200 279
+0:0:0:0:0:0:0:1 - - [17/Jan/2026:23:51:01 +0530] "GET /amazon-user-profile/getAllData? HTTP/1.1" 500 6440
+127.0.0.1 - - [17/Jan/2026:23:57:09 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [17/Jan/2026:23:57:10 +0530] "GET /amazon-user-profile/ HTTP/1.1" 200 111
+0:0:0:0:0:0:0:1 - - [17/Jan/2026:23:57:15 +0530] "GET /amazon-user-profile/createprofile HTTP/1.1" 200 378
+0:0:0:0:0:0:0:1 - - [17/Jan/2026:23:57:28 +0530] "POST /amazon-user-profile/profileCreatePage HTTP/1.1" 200 279
+0:0:0:0:0:0:0:1 - - [17/Jan/2026:23:57:31 +0530] "GET /amazon-user-profile/getAllData? HTTP/1.1" 500 6440

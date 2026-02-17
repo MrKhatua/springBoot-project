@@ -1,0 +1,7 @@
+package com.kodewala.controller;
+
+import org.springframework.stereotype.Controller;
+
+public class EurekaController {
+	
+}
